@@ -7,15 +7,17 @@ body {
 .first-section {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 10px 100px;
+    padding: 20px 100px;
     height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px; 
 }
 
 .logo {
@@ -39,6 +41,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-grow: 1;
 }
 
 .hero .text .title{
@@ -51,7 +54,7 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .hero button {
