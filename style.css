@@ -117,3 +117,33 @@ ul {
     max-width: 150px;
     text-align: center;
 }
+
+/*Third Section*/
+.third-section {
+    height: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-container .author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 700;
+}
